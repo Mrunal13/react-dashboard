@@ -1,0 +1,76 @@
+#range-slider,
+#range-slider-blue,
+#range-slider-yellow,
+#range-slider-purple,
+#range-slider-teal,
+#range-slider-green {
+  /* background: url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23555' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E")
+    #333; */
+  height: 10px;
+}
+
+#range-slider2 .range-slider__range,
+#range-slider .range-slider__range {
+  background: #dc3545;
+  transition: height 0.3s;
+}
+#range-slider-blue .range-slider__range {
+  background: #007bff;
+  transition: height 0.3s;
+}
+#range-slider-green2 .range-slider__range,
+#range-slider-green .range-slider__range {
+  background: #28a745;
+  transition: height 0.3s;
+}
+#range-slider-yellow2 .range-slider__range,
+#range-slider-yellow .range-slider__range {
+  background: #ffc107;
+  transition: height 0.3s;
+}
+#range-slider-teal2 .range-slider__range,
+#range-slider-teal .range-slider__range {
+  background: #20c997;
+  transition: height 0.3s;
+}
+#range-slider-purple2 .range-slider__range,
+#range-slider-purple .range-slider__range {
+  background: #6f42c1;
+  transition: height 0.3s;
+}
+
+#range-slider .range-slider__thumb,
+#range-slider2 .range-slider__thumb,
+#range-slider-green .range-slider__thumb,
+#range-slider-green2 .range-slider__thumb,
+#range-slider-yellow .range-slider__thumb,
+#range-slider-yellow2 .range-slider__thumb,
+#range-slider-teal .range-slider__thumb,
+#range-slider-teal2 .range-slider__thumb,
+#range-slider-purple .range-slider__thumb,
+#range-slider-purple2 .range-slider__thumb,
+#range-slider-blue .range-slider__thumb,
+#range-slider-blue2 .range-slider__thumb {
+  background: #0479b3;
+  height: 20px;
+  width: 20px;
+  transition: transform 0.3s;
+}
+
+#range-slider .range-slider__thumb[data-active],
+#range-slider-yellow .range-slider__thumb[data-active],
+#range-slider-teal .range-slider__thumb[data-active],
+#range-slider-purple .range-slider__thumb[data-active],
+#range-slider-green .range-slider__thumb[data-active],
+#range-slider-blue .range-slider__thumb[data-active] {
+  transform: translate(-50%, -50%) scale(1.25);
+}
+
+#range-slider .range-slider__range[data-active],
+#range-slider-yellow .range-slider__range[data-active],
+#range-slider-teal .range-slider__range[data-active],
+#range-slider-purple .range-slider__range[data-active],
+#range-slider-green .range-slider__range[data-active],
+#range-slider-blue .range-slider__range[data-active] {
+  height: 16px;
+}

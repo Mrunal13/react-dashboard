@@ -1,0 +1,97 @@
+.accordion-one button {
+  background-color: #007bff;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: left;
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+}
+.accordion-two button {
+  background-color: #dc3545;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: left;
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+}
+.accordion-three button {
+  background-color: #28a745;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: left;
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+}
+.accordion-one .accordion-button:not(.collapsed) {
+  background-color: #007bff;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: left;
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+}
+.accordion-two .accordion-button:not(.collapsed) {
+  background-color: #dc3545;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: left;
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+}
+.accordion-three .accordion-button:not(.collapsed) {
+  background-color: #28a745;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: left;
+  border: 0;
+  overflow-anchor: none;
+}
+.accordion-button:focus {
+  z-index: 0;
+  box-shadow: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: left;
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+}
